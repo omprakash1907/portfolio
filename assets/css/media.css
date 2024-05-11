@@ -1,0 +1,43 @@
+@media(max-width: 576px) {
+    .tab {
+        width: 80px;
+    }
+
+    .tabs .slider {
+        width: 80px;
+    }
+
+    .web-description {
+        width: calc(100% - 10%);
+    }
+}
+
+@media(min-width: 576px) {}
+
+@media(min-width: 768px) {}
+
+@media(max-width: 992px) {
+    .collapse {
+        background-color: var(--theme-secondary);
+    }
+
+    .collapse a {
+        color: var(--white);
+    }
+}
+
+@media(min-width: 992px) {
+    .aarsh-image {
+        transform: rotate(5deg);
+    }
+
+    .main-banner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media(min-width: 1200px) {}
+
+@media(min-width: 1400px) {}
