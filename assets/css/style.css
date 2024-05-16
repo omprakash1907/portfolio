@@ -398,7 +398,7 @@
      height: 390px;
      width: 350px;
      transition: all 0.3s linear;
-     transform: rotate(10deg);
+     transform: rotate(0deg);
  }
 
  .om-image img {
